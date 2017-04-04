@@ -1,29 +1,28 @@
 //
-//  ViewController.m
+//  PVTViewController.m
 //  PageVCTemplate
 //
-//  Created by Audient Xie on 2017/4/3.
+//  Created by Audient Xie on 2017/4/4.
 //  Copyright © 2017年 abyss. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PVTViewController.h"
 
-@interface ViewController ()
+@interface PVTViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PVTViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.labelInfo.text = self.categoryName;
+    // Do any additional setup after loading the view from its nib.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
